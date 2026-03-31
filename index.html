@@ -868,7 +868,7 @@
           </div>
 
             <div class="col-lg-8">
-              <form action="https://api.web3forms.com/submit" method="POST">
+              <form action="https://api.web3forms.com/submit" method="POST" class="php-email-form">
                 <input type="hidden" name="access_key" value="cde9f030-92fd-45c3-8241-4aa6b3fc3962">
                 <div class="row gy-4">
 
@@ -885,6 +885,9 @@
                   </div>
 
                   <div class="col-md-12">
+                    <div class="loading" style="display: none;">Loading</div>
+                    <div class="error-message" style="display: none;"></div>
+                    <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
                     <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                   </div>
 
